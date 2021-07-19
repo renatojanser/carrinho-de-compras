@@ -90,7 +90,7 @@ export const ProductTable = styled.table`
 
     &:disabled {
       svg {
-        color: ${lighten(0.10, 'rgb(8, 1, 42)')};
+        color: rgb(153, 153, 153);
         cursor: not-allowed;
       }
     }
