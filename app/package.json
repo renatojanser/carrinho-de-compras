@@ -25,9 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server server.json -p 8000"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -45,9 +43,7 @@
     "@testing-library/react-hooks": "^5.1.0",
     "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.1.7",
-    "@types/styled-components": "^5.1.7",
-    "axios-mock-adapter": "^1.19.0",
-    "json-server": "^0.16.3"
+    "@types/styled-components": "^5.1.7"
   },
   "eslintConfig": {
     "extends": [

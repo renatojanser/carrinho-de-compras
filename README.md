@@ -8,6 +8,9 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#%EF%B8%8F-funcionalidades)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+     * [Pré-requisitos](#pré-requisitos)
+     * [Rodando a aplicação](#-rodando-a-aplicação)
    * [Tecnologias](#-tecnologias)
    * [Autor](#-autor)
    * [Licença](#-licença)
@@ -27,6 +30,38 @@ Tabela de conteúdos
 - [x] Remover produtos do carrinho
 
 ---
+
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+#### 🧭 Rodando a aplicação
+
+Com o repositório clonado anteriormente, é preciso somente executar a aplicação agora.
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/renatojanser/carrinho-de-compras.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd carrinho-de-compras/app
+
+# Instale as dependências
+$ yarn install # ou npm install
+
+# Execute a aplicação
+$ yarn start # ou npm start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
 
 ## 🛠 Tecnologias
 
