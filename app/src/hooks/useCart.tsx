@@ -95,7 +95,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       }
 
       const response = await api.get(`/product/${productId}`);
-      const productAmount = response.data.amount;
+      const productAmount = response.data.stock;
       const stockIsFree = stock > productAmount
 
       if(stockIsFree) {
